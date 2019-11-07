@@ -35,7 +35,7 @@ function add(scheme) {
 function addStep(step, id) {
     return db('steps')
         .insert(step)
-        .where({scheme_id: id})
+        //.where({scheme_id: id})
 }
 
 function update(changes, id) {
